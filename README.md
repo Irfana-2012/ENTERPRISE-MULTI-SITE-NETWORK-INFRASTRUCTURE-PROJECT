@@ -42,11 +42,11 @@ Designed and implemented an enterprise-grade multi-site network infrastructure u
                                                  192.168.30.10
                                                  192.168.30.11
                                                  192.168.30.20
-```
+
 
 ---
 
-# Key Features
+#  Key Features
 
 - Multi-site enterprise network topology
 - VLAN segmentation for departmental isolation
