@@ -6,6 +6,7 @@ Designed and implemented an enterprise-grade multi-site network infrastructure u
 ---
 
 # Network Topology
+<img width="1366" height="717" alt="Network Topology" src="https://github.com/user-attachments/assets/1c43b579-65f7-440a-8651-d4030903dc36" />
 
 
                                         INTERNET / WAN
