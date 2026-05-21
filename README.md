@@ -6,7 +6,8 @@ Designed and implemented an enterprise-grade multi-site network infrastructure u
 ---
 
 # Network Topology
-<img width="1366" height="717" alt="Network Topology" src="https://github.com/user-attachments/assets/1c43b579-65f7-440a-8651-d4030903dc36" />
+<img width="1366" height="768" alt="Network Topology" src="https://github.com/user-attachments/assets/3dba6680-2928-4433-8b99-2f0c347f320a" />
+
 
 
 ---
@@ -22,6 +23,9 @@ Designed and implemented an enterprise-grade multi-site network infrastructure u
 - Internal HTTP Web Server hosting enterprise webpage
 - NAT/PAT configuration for private-to-public IP translation
 - ACL-based network traffic filtering and security
+- STP configuration for loop prevention and Layer 2 stability
+- EtherChannel configuration for link aggregation and redundancy
+- Port Security implementation for unauthorized device prevention
 - SSH secure remote administration for routers and switches
 - 802.1Q trunking between switches
 - Enterprise network troubleshooting and connectivity validation
@@ -37,6 +41,9 @@ Designed and implemented an enterprise-grade multi-site network infrastructure u
 - OSPF
 - NAT/PAT
 - ACL
+- STP
+- EtherChannel
+- Port Security
 - DHCP
 - DHCP Relay
 - DNS
@@ -156,6 +163,9 @@ Successfully validated:
 - NAT/PAT translations
 - SSH remote login
 - ACL traffic filtering
+- Port Security violation testing
+- STP loop prevention
+- EtherChannel load balancing
 - Internal web server accessibility
 - End-to-end WAN connectivity
 
