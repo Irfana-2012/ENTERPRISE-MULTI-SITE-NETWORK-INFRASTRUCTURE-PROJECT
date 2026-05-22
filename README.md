@@ -6,7 +6,8 @@ Designed and implemented an enterprise-grade multi-site network infrastructure u
 ---
 
 # Network Topology
-<img width="1366" height="768" alt="Network Topology" src="https://github.com/user-attachments/assets/3dba6680-2928-4433-8b99-2f0c347f320a" />
+<img width="1366" height="725" alt="Network Topology" src="https://github.com/user-attachments/assets/3c944f8f-2659-4c1b-a792-ffa879d638ff" />
+
 
 
 
@@ -64,6 +65,9 @@ Designed and implemented an enterprise-grade multi-site network infrastructure u
 - Core Switch
 - Router-on-a-Stick configuration
 - SSH-enabled router and switch management
+- Etherchannel for high availability
+- Spanning Tree Protocol (STP) for Layer-2 loop prevention
+- Port security to restrict unauthorized endpoint access
 
 ## Branch Office
 - Server VLAN
@@ -109,6 +113,23 @@ Designed and implemented an enterprise-grade multi-site network infrastructure u
 
 ## Inter-VLAN Routing
 <img width="1366" height="768" alt="inter-VLAN routing" src="https://github.com/user-attachments/assets/5c505b6f-04a4-4f25-9240-325892bb1a20" />
+
+## Port security
+Implemented switch port security with sticky MAC learning and violation shutdown mode to restrict unauthorized endpoint access in enterprise VLAN environment.
+<img width="1366" height="692" alt="port shutdown" src="https://github.com/user-attachments/assets/f2bbba9d-24e5-4cb3-a4d2-1f5ef023bfe3" />
+<img width="1362" height="711" alt="Port security" src="https://github.com/user-attachments/assets/415dc0e8-d32c-4dbb-ba51-ea67baa8ea73" />
+
+## Etherchannel
+Implemented EtherChannel link aggregation for switch redundancy, load balancing, and high availability connectivity between enterprise switches.
+<img width="1361" height="706" alt="etherchannel finance-switch" src="https://github.com/user-attachments/assets/9729ea17-3e9e-4e2a-b54d-d13e5d1e57fa" />
+<img width="1366" height="728" alt="etherchannel core-switch" src="https://github.com/user-attachments/assets/890641b7-5378-47ff-9843-53522b7ca3c4" />
+<img width="1366" height="719" alt="Etherchannel" src="https://github.com/user-attachments/assets/864b44ac-132f-4225-a78f-52539228a182" />
+
+## STP Spanning tree protocol
+Configured Spanning Tree Protocol (STP) for Layer-2 loop prevention and enterprise network stability across multi-switch architecture.
+<img width="1366" height="719" alt="STP" src="https://github.com/user-attachments/assets/7eb81f58-0d95-4e77-8622-362f8fed1a22" />
+<img width="1366" height="715" alt="STP-" src="https://github.com/user-attachments/assets/57f01f2e-24cd-484d-8ae8-ae9845dce6be" />
+
 
 ## Network Services
 - Configured centralized DHCP Server
