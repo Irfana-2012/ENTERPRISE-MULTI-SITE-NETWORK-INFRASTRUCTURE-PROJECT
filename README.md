@@ -1,7 +1,7 @@
 # ENTERPRISE-MULTI-SITE-NETWORK-INFRASTRUCTURE-PROJECT
 
 ## Project Overview
-Designed and implemented an enterprise-grade multi-site network infrastructure using Cisco Packet Tracer simulating real-world enterprise networking between Head Office and Branch Office environments. The project includes VLAN segmentation, Inter-VLAN Routing, OSPF dynamic routing, NAT/PAT, ACL security policies, DHCP Relay, DNS services, HTTP web hosting, SSH remote administration, and WAN connectivity.
+Designed and implemented an enterprise-grade multi-site network infrastructure using Cisco Packet Tracer simulating real-world enterprise networking between Head Office and Branch Office environments. The project includes VLAN segmentation, Inter-VLAN Routing, OSPF dynamic routing, NAT/PAT, ACL security policies, Port Security, Etherchannel, Spanning Tree Protocol, DHCP Relay, DNS services, HTTP web hosting, SSH remote administration, and WAN connectivity.
 
 ---
 
